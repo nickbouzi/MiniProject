@@ -1,0 +1,501 @@
+restaurant_id,owner,employees,drink_menu_Items,Food_Menu_Items,Supplier,Tables,michelin_star_number,cuisine_type,rating,Restaurant_manager,restaurant_name,country_name
+resto_001,amir_khan,19,27,37,local_goods,1,3,Indian,10,Karen Terry,The Golden Spoon,Italy
+resto_002,owner_mcownerface,36,44,14,farmer_steve,36,2,American,5,Andrea Taylor,Midnight Diner 17,France
+resto_003,linda_smith,6,38,47,farmer_steve,40,3,Indian,2,Tiffany Jones,Joël Robuchon 46 146,Germany
+resto_004,owner_mcownerface,49,29,10,farm_fresh,27,2,French,4,Joseph Bailey,La Petite Maison 12 62,Spain
+resto_005,george_michael,32,12,43,farm_fresh,46,1,Spanish,5,Richard Rose,Noble Fare 29,Japan
+resto_006,linda_smith,21,18,43,farm_fresh,6,1,Italian,6,Christopher Hanna,The Oak Room 18,India
+resto_007,owner_mcownerface,6,35,1,farm_fresh,3,2,Chinese,8,Aaron Todd,Daniel 48,Brazil
+resto_008,george_michael,22,38,26,farm_fresh,40,1,American,8,Cameron Lynch,Gordon Ramsay Steak 45,Mexico
+resto_009,george_michael,16,4,10,local_goods,28,1,Greek,4,Jennifer Hughes,The Golden Spoon 0 50,Canada
+resto_010,amir_khan,48,43,18,farmer_steve,8,3,Spanish,7,John Weaver,The French Laundry 49,Australia
+resto_011,linda_smith,45,47,7,farm_fresh,29,2,Spanish,4,Sophia Donovan,Joël Robuchon 46,South Korea
+resto_012,owner_mcownerface,11,48,17,farmer_steve,30,2,Spanish,2,Jordan Pearson,Harvest Moon Cafe,United Kingdom
+resto_013,linda_smith,25,21,20,local_goods,37,3,Italian,8,Mary Chan,Red Lantern 30 80,Netherlands
+resto_014,owner_mcownerface,1,38,47,local_goods,32,3,Japanese,1,Rebecca Fisher,Sunset Terrace 20 70,Sweden
+resto_015,amir_khan,31,31,25,farm_fresh,17,3,Thai,5,Natalie Ray,Sunset Terrace 20,Greece
+resto_016,george_michael,4,42,23,farm_fresh,1,1,Mexican,5,Rebecca Lowery,Crimson & Clover,Italy
+resto_017,linda_smith,24,15,3,farm_fresh,5,1,Thai,8,Monica Rodriguez,Saffron Table 5 55 155,France
+resto_018,amir_khan,1,37,25,farm_fresh,25,3,French,10,Patricia Brewer,Maple & Ash 19,Germany
+resto_019,linda_smith,30,36,34,farm_fresh,20,2,Chinese,2,Jason Welch,Crimson & Clover 15 65 165,Spain
+resto_020,linda_smith,23,25,27,farm_fresh,30,2,American,6,Barry Stark,Echo & Rig 23,Japan
+resto_021,linda_smith,30,25,39,farm_fresh,7,3,American,3,Jeremy Ryan,Per Se 47,India
+resto_022,owner_mcownerface,34,23,26,farm_fresh,13,2,Italian,2,Joshua Miller,Echo & Rig 23,Brazil
+resto_023,linda_smith,25,20,5,farm_fresh,8,2,French,3,Eric Ramirez,Chez Panisse 38 88,Mexico
+resto_024,amir_khan,16,21,29,farm_fresh,41,1,Italian,1,Daniel English,The Curry Leaf 11 61,Canada
+resto_025,linda_smith,20,28,43,farmer_steve,47,1,Thai,3,Jennifer Watts,Joël Robuchon,Australia
+resto_026,george_michael,8,9,10,farmer_steve,50,3,Japanese,4,Benjamin Vega,Wolfgang Puck Bar & Grill 35 135,South Korea
+resto_027,linda_smith,39,12,22,farm_fresh,13,1,Indian,7,Sharon Hogan,Zest Kitchen 27 77 177,United Kingdom
+resto_028,amir_khan,47,47,23,farmer_steve,48,1,Spanish,8,Amanda Reed,Bouchon Bistro 36 136,Netherlands
+resto_029,owner_mcownerface,21,28,5,farm_fresh,38,1,Mexican,7,Darren Fields,Maple & Ash 19,Sweden
+resto_030,amir_khan,22,47,16,local_goods,2,2,Chinese,8,Isaac Green,Ocean's Delight 1,Greece
+resto_031,linda_smith,15,7,38,farmer_steve,46,3,Spanish,5,Kathryn Brooks,Cedar House 28 78,Italy
+resto_032,owner_mcownerface,14,14,6,local_goods,40,1,Greek,7,Kathy Chandler,Sunset Terrace 20 70 170,France
+resto_033,owner_mcownerface,7,19,19,farm_fresh,30,1,Spanish,10,Felicia Pierce,Spice Symphony 2,Germany
+resto_034,owner_mcownerface,17,49,3,farm_fresh,19,3,Spanish,7,Christopher Hutchinson,Cedar House 28 128,Spain
+resto_035,george_michael,27,28,35,local_goods,27,1,American,5,Nicole Porter,Spice Symphony 2 52 152,Japan
+resto_036,amir_khan,6,17,19,farm_fresh,14,3,Spanish,7,Brenda Rocha,Grill 23 & Bar 37,India
+resto_037,amir_khan,41,40,23,farmer_steve,46,2,Japanese,2,Craig Larson,The Greenhouse 14,Brazil
+resto_038,owner_mcownerface,6,46,32,local_goods,2,2,American,4,Cassandra Pugh,Fig & Olive 40,Mexico
+resto_039,linda_smith,43,38,4,farmer_steve,36,3,Thai,10,Craig Ayers,Blue Hill Tavern 13,Canada
+resto_040,owner_mcownerface,21,3,41,farm_fresh,1,2,French,5,Hannah Mendez,Blue Hill Tavern 13 63,Australia
+resto_041,linda_smith,16,35,24,farm_fresh,50,2,Spanish,7,Scott Collins,The Capital Grille,South Korea
+resto_042,owner_mcownerface,12,31,45,farmer_steve,29,2,Spanish,9,Laura Tanner,Red Lantern 30 80,United Kingdom
+resto_043,amir_khan,6,18,3,farmer_steve,36,1,Indian,4,Alejandro Fields,Daniel 48,Netherlands
+resto_044,linda_smith,1,5,40,farm_fresh,34,1,French,10,Janice Manning,Olive & Thyme 7 57,Sweden
+resto_045,owner_mcownerface,21,25,41,local_goods,6,1,Mexican,3,Sergio Mayer,Chez Panisse 38,Greece
+resto_046,george_michael,35,23,32,farmer_steve,32,3,Greek,2,Michelle Knox,Bistro Lumiere 8,Italy
+resto_047,owner_mcownerface,44,38,47,farmer_steve,7,3,Greek,10,Theresa Williams,Sunset Terrace 20 120,France
+resto_048,george_michael,20,23,18,farm_fresh,47,1,Mexican,8,Tiffany Schwartz,Chez Panisse,Germany
+resto_049,linda_smith,13,15,15,farmer_steve,44,1,Thai,6,Andrew Sullivan,Eleven Madison Park 44 94,Spain
+resto_050,owner_mcownerface,24,3,49,local_goods,41,1,Chinese,7,Samantha Jones,The Melting Pot 22 122,Japan
+resto_051,owner_mcownerface,34,13,2,farm_fresh,3,3,American,2,Jessica Clayton,Per Se 47,India
+resto_052,linda_smith,2,18,30,farm_fresh,28,2,Chinese,2,Tyler Gray,Cedar House 28,Brazil
+resto_053,linda_smith,21,43,4,farm_fresh,9,1,Mexican,1,Johnny Tran,Maple & Ash 19,Mexico
+resto_054,owner_mcownerface,1,39,38,local_goods,8,3,Mexican,4,Jason Smith,Marble & Rye 32 82,Canada
+resto_055,amir_khan,22,17,9,local_goods,4,3,Japanese,4,Lisa Lawrence,The French Laundry 49 99 199,Australia
+resto_056,linda_smith,34,26,32,local_goods,24,3,French,4,Sherry Walker,Savory Street 16 116,South Korea
+resto_057,linda_smith,41,19,14,farmer_steve,24,2,French,6,Lauren Mcguire,Spice Symphony 2,United Kingdom
+resto_058,george_michael,46,32,12,local_goods,14,2,Japanese,10,Carrie Hardin,Maple & Ash 19 69,Netherlands
+resto_059,amir_khan,22,41,13,farmer_steve,34,1,Thai,10,Tracy Dennis,Mango Tree 26 76,Sweden
+resto_060,amir_khan,47,50,6,farm_fresh,34,1,Chinese,10,Erica Harris,Echo & Rig 23,Greece
+resto_061,amir_khan,17,30,27,farm_fresh,10,2,Indian,1,Carol Hernandez,The Melting Pot 22 72,Italy
+resto_062,owner_mcownerface,13,39,1,local_goods,30,1,Mexican,3,Michael Burns,Fire & Ice Grill 9,France
+resto_063,george_michael,25,13,2,local_goods,1,1,Thai,9,Charles Gonzalez,Midnight Diner 17 67 167,Germany
+resto_064,owner_mcownerface,19,10,38,farm_fresh,19,2,Greek,4,Tina Parker,Cedar House 28,Spain
+resto_065,amir_khan,46,9,30,farmer_steve,40,2,Indian,10,Jose Oneill,Sunset Terrace 20,Japan
+resto_066,george_michael,31,28,31,local_goods,6,2,American,10,Adam Moreno,Harvest Moon Cafe 21,India
+resto_067,amir_khan,18,27,33,farm_fresh,11,3,Chinese,4,Kelly Smith,Noble Fare 29,Brazil
+resto_068,george_michael,41,3,21,farm_fresh,37,2,Thai,3,Jose Thompson,Maple & Ash 19 69,Mexico
+resto_069,george_michael,43,18,41,farmer_steve,21,1,Mexican,10,Christine Jimenez,Midnight Diner 17,Canada
+resto_070,owner_mcownerface,49,17,14,local_goods,12,2,Chinese,6,Raymond Garza,The Rustic Fork 3 53,Australia
+resto_071,linda_smith,23,43,9,farmer_steve,24,1,Indian,3,Michael Brown,Grill 23 & Bar 37 87,South Korea
+resto_072,george_michael,18,50,29,farmer_steve,45,2,Japanese,4,Charles Cochran,Savory Street 16 66 166,United Kingdom
+resto_073,george_michael,20,29,25,farm_fresh,5,3,Thai,6,Courtney Soto,Blue Hill Tavern,Netherlands
+resto_074,owner_mcownerface,37,37,24,farmer_steve,48,1,American,8,Emily Fox,Ocean's Delight 1,Sweden
+resto_075,linda_smith,22,15,47,farmer_steve,10,3,Mexican,2,Benjamin Cummings,Fork & Barrel 25,Greece
+resto_076,amir_khan,9,14,8,farmer_steve,41,3,Mexican,2,Jamie Holmes,The Oak Room,Italy
+resto_077,linda_smith,43,27,2,farm_fresh,33,1,American,5,Charles Tyler,Grill 23 & Bar,France
+resto_078,owner_mcownerface,16,48,2,local_goods,17,2,Mexican,7,Steven Sanders,The Capital Grille 41 141,Germany
+resto_079,linda_smith,41,45,45,local_goods,16,2,Thai,3,Michelle Tyler,Marble & Rye 32,Spain
+resto_080,owner_mcownerface,22,50,32,farmer_steve,5,2,American,10,Stacey Wells,Olive & Thyme 7 107,Japan
+resto_081,george_michael,6,21,32,farm_fresh,41,1,Indian,2,Jasmine Humphrey,Harvest Moon Cafe 21 71,India
+resto_082,owner_mcownerface,43,36,36,local_goods,3,1,Thai,7,James Cook,Echo & Rig 23 73,Brazil
+resto_083,amir_khan,10,39,16,farm_fresh,41,1,Thai,7,Brian Heath,The Golden Spoon 0 50,Mexico
+resto_084,owner_mcownerface,40,20,19,farmer_steve,48,1,American,2,Deborah Ford,Daniel,Canada
+resto_085,amir_khan,46,50,29,farm_fresh,46,3,Indian,7,Dawn Mills,Eleven Madison Park 44 144,Australia
+resto_086,george_michael,19,50,15,local_goods,31,1,American,7,Christopher Benson,L'Atelier 39 89 189,South Korea
+resto_087,george_michael,32,11,45,farm_fresh,19,2,Greek,2,Kevin White,The Whale’s Tail 31 81,United Kingdom
+resto_088,linda_smith,32,27,50,farmer_steve,26,1,Thai,3,Mariah Cervantes,Chez Panisse 38,Netherlands
+resto_089,owner_mcownerface,38,12,42,farmer_steve,15,2,Italian,10,Cameron Carlson,Marble & Rye 32 82,Sweden
+resto_090,george_michael,34,6,39,farmer_steve,18,2,Thai,8,Amanda Thompson,Savory Street 16 66,Greece
+resto_091,linda_smith,45,18,10,farmer_steve,8,1,Thai,6,Priscilla Buck,Midnight Diner 17,Italy
+resto_092,owner_mcownerface,41,13,2,farmer_steve,2,2,Thai,10,Joshua Gill,The Greenhouse 14,France
+resto_093,linda_smith,26,16,12,farm_fresh,6,2,Japanese,10,Michael Estrada,Café Boulud,Germany
+resto_094,owner_mcownerface,2,2,42,local_goods,12,3,Japanese,10,Shirley Mcpherson,The Violet Hour 33 83,Spain
+resto_095,george_michael,49,6,31,farmer_steve,29,3,Italian,8,Maxwell Johnson,The Greenhouse 14 64,Japan
+resto_096,linda_smith,48,43,26,local_goods,44,1,American,6,Rebecca Fox,Bistro Lumiere 8,India
+resto_097,owner_mcownerface,19,36,8,farmer_steve,46,3,Italian,7,Jill Snyder,Urban Palate 10,Brazil
+resto_098,linda_smith,5,43,30,local_goods,32,1,Chinese,10,Michael Schroeder,The Curry Leaf 11,Mexico
+resto_099,george_michael,15,48,13,local_goods,1,3,Spanish,1,Jeremy Brown,Saffron Table 5 55,Canada
+resto_100,linda_smith,21,21,42,farmer_steve,19,1,Italian,10,Angela Page,Bistro Lumiere 8 58 158,Australia
+resto_101,george_michael,22,49,3,farm_fresh,16,2,American,5,Steven Brown,The Melting Pot 22,South Korea
+resto_102,george_michael,18,2,21,local_goods,34,3,Chinese,9,Amy Lynch,The Whale’s Tail 31 81,United Kingdom
+resto_103,linda_smith,46,22,39,farm_fresh,23,3,Thai,4,Scott Brewer,The Violet Hour 33,Netherlands
+resto_104,linda_smith,21,28,8,farm_fresh,11,1,Chinese,2,Michelle Stone,Mango Tree 26,Sweden
+resto_105,owner_mcownerface,42,6,39,local_goods,39,3,Thai,8,Olivia Martinez,The Golden Spoon 0 50,Greece
+resto_106,owner_mcownerface,10,25,10,farm_fresh,30,3,French,1,Zachary Lee,Noble Fare 29 79 179,Italy
+resto_107,george_michael,30,28,18,farmer_steve,4,3,Japanese,8,Margaret Barnes,Red Lantern,France
+resto_108,owner_mcownerface,47,49,6,farmer_steve,12,3,Chinese,6,Leslie Daniel,Velvet Taco 34,Germany
+resto_109,linda_smith,49,10,28,farm_fresh,33,1,French,10,Stacy Martinez,The French Laundry 49 99,Spain
+resto_110,george_michael,25,49,11,local_goods,4,2,Japanese,5,Alexander Figueroa,Eleven Madison Park 44 94 194,Japan
+resto_111,linda_smith,33,34,5,farm_fresh,2,3,Italian,9,Cindy Mcdonald,The Capital Grille 41 91,India
+resto_112,owner_mcownerface,50,20,9,farmer_steve,19,3,Indian,2,Amber Herring,Echo & Rig 23 73,Brazil
+resto_113,owner_mcownerface,27,12,17,local_goods,43,2,Japanese,8,Jennifer Phillips,The Melting Pot 22 72,Mexico
+resto_114,george_michael,12,49,49,local_goods,27,1,Chinese,2,Mackenzie Rogers,Ocean's Delight 1,Canada
+resto_115,owner_mcownerface,46,32,50,farm_fresh,32,1,Thai,4,Tabitha Mann,The Oak Room 18 68,Australia
+resto_116,george_michael,18,11,23,farmer_steve,40,3,Thai,6,Jennifer Thomas,Velvet Taco 34,South Korea
+resto_117,linda_smith,24,34,37,local_goods,48,1,Chinese,6,Kimberly Hayes,The French Laundry 49 99,United Kingdom
+resto_118,amir_khan,27,2,46,local_goods,49,3,French,5,Julie Williams,Fire & Ice Grill 9 59,Netherlands
+resto_119,george_michael,34,37,47,farm_fresh,14,1,Japanese,5,Christopher Pearson,The Violet Hour 33,Sweden
+resto_120,amir_khan,45,15,36,farm_fresh,4,3,Thai,2,Kimberly Chavez,Spice Symphony 2,Greece
+resto_121,linda_smith,27,25,23,farm_fresh,31,1,Thai,2,Shannon Simmons,La Petite Maison 12,Italy
+resto_122,owner_mcownerface,23,50,31,farm_fresh,43,1,Japanese,9,Brian Campbell,Velvet Taco 34 84,France
+resto_123,amir_khan,17,36,20,local_goods,7,1,Italian,9,Laurie Warner,Eleven Madison Park 44,Germany
+resto_124,linda_smith,22,18,28,farmer_steve,13,2,Italian,1,Madeline Owen,Crimson & Clover 15 65,Spain
+resto_125,linda_smith,17,5,10,farmer_steve,29,2,American,3,Megan Mccarty,Red Lantern 30 130,Japan
+resto_126,linda_smith,20,20,16,farm_fresh,20,3,Indian,4,Tonya Vargas,Wolfgang Puck Bar & Grill 35,India
+resto_127,george_michael,25,25,27,farm_fresh,15,3,Japanese,10,Michael Wright,The Oak Room 18,Brazil
+resto_128,amir_khan,14,36,30,farm_fresh,3,2,American,2,Diana Sanchez,Harvest Moon Cafe 21 71 171,Mexico
+resto_129,owner_mcownerface,19,23,44,farmer_steve,10,1,American,2,Raymond Hopkins,Harvest Moon Cafe 21 121,Canada
+resto_130,george_michael,35,34,1,farm_fresh,5,1,Indian,2,Jessica Ross,Noble Fare 29,Australia
+resto_131,linda_smith,49,27,3,farmer_steve,39,2,Mexican,5,Lindsey Gutierrez,La Petite Maison 12 62,South Korea
+resto_132,linda_smith,6,48,13,farmer_steve,26,3,French,1,Jessica Rogers,The Oak Room 18,United Kingdom
+resto_133,george_michael,28,9,38,local_goods,15,2,Italian,5,Nichole Goodwin,The Whale’s Tail 31,Netherlands
+resto_134,amir_khan,16,15,18,farmer_steve,11,1,Thai,10,April Manning,The Curry Leaf 11 111,Sweden
+resto_135,owner_mcownerface,12,29,5,farmer_steve,16,1,Mexican,4,Michael Willis,L'Atelier 39 89,Greece
+resto_136,george_michael,34,11,43,local_goods,20,1,Japanese,7,Tara Robbins,Fork & Barrel 25,Italy
+resto_137,amir_khan,46,15,22,farmer_steve,9,1,Thai,9,Brandon Moore,The Capital Grille 41 91,France
+resto_138,george_michael,23,38,4,farm_fresh,1,1,Chinese,8,Stephanie Mcknight,Le Bernardin 42 92,Germany
+resto_139,owner_mcownerface,5,39,39,local_goods,50,2,Japanese,6,Jacqueline Palmer,The Violet Hour 33 83,Spain
+resto_140,george_michael,50,34,13,farm_fresh,21,2,Chinese,4,Jessica Ortiz,Mango Tree 26,Japan
+resto_141,owner_mcownerface,25,16,35,farmer_steve,17,2,Thai,4,Molly White,The Curry Leaf 11 61,India
+resto_142,owner_mcownerface,21,40,33,farmer_steve,7,3,Mexican,4,Brittany Morales,Urban Palate,Brazil
+resto_143,owner_mcownerface,37,1,23,local_goods,24,1,French,10,Jason Kim,Urban Palate 10,Mexico
+resto_144,owner_mcownerface,4,13,19,local_goods,2,3,Thai,6,Melissa Brown,The Rustic Fork 3 53,Canada
+resto_145,linda_smith,13,37,39,farmer_steve,27,3,Italian,5,Kayla Martin,Gordon Ramsay Steak 45 145,Australia
+resto_146,amir_khan,46,5,18,local_goods,45,1,Indian,7,Laura Ayers,Noble Fare 29,South Korea
+resto_147,george_michael,10,36,36,farm_fresh,26,2,Italian,9,Bradley Smith,Mango Tree 26,United Kingdom
+resto_148,owner_mcownerface,42,43,36,local_goods,50,3,French,4,Jeffrey Mcknight,Daniel 48,Netherlands
+resto_149,owner_mcownerface,34,9,5,local_goods,23,3,French,3,Stacey Harvey,Spice Symphony 2 102,Sweden
+resto_150,linda_smith,43,4,4,farmer_steve,42,1,Chinese,9,Thomas Novak,Café Boulud 43,Greece
+resto_151,amir_khan,8,30,28,local_goods,38,3,Chinese,2,Jennifer Rangel,Le Bernardin 42,Italy
+resto_152,linda_smith,50,29,16,farmer_steve,11,1,Indian,10,Stephanie Goodman,Sunset Terrace 20 70,France
+resto_153,linda_smith,15,18,22,farm_fresh,23,3,Italian,5,Amber Kennedy,Joël Robuchon 46 96,Germany
+resto_154,linda_smith,13,45,3,farmer_steve,37,3,Italian,7,Brian Conrad,Per Se 47 97,Spain
+resto_155,linda_smith,48,33,37,local_goods,13,1,Chinese,8,Laura Perry,Bouchon Bistro 36 86 186,Japan
+resto_156,linda_smith,44,22,2,local_goods,14,3,Mexican,1,Michael Yates,Spice Symphony 2 52,India
+resto_157,linda_smith,22,16,32,farm_fresh,49,2,Italian,3,Kevin Stone,Blue Hill Tavern 13,Brazil
+resto_158,linda_smith,9,38,5,farm_fresh,11,2,Italian,8,Jonathan Martin,Echo & Rig 23 123,Mexico
+resto_159,amir_khan,12,48,39,local_goods,10,2,American,3,Douglas Strickland,Gordon Ramsay Steak 45,Canada
+resto_160,linda_smith,46,28,21,farm_fresh,44,2,Spanish,4,Dustin Bryant,Harvest Moon Cafe 21 71,Australia
+resto_161,linda_smith,5,43,30,farm_fresh,33,3,Chinese,9,Jonathan Benson,La Petite Maison 12,South Korea
+resto_162,george_michael,15,46,22,local_goods,36,3,Greek,6,Eric Ross,Bouchon Bistro 36,United Kingdom
+resto_163,amir_khan,21,2,18,farmer_steve,43,3,Mexican,8,Karen Lowery,Ocean's Delight 1,Netherlands
+resto_164,owner_mcownerface,2,43,31,farm_fresh,11,2,Indian,10,Thomas Campbell,Bistro Lumiere,Sweden
+resto_165,linda_smith,4,7,24,local_goods,17,1,Greek,2,Theresa Johnston,Café Boulud 43 93 193,Greece
+resto_166,george_michael,14,45,21,farmer_steve,24,3,Greek,1,Matthew Brown,Le Bernardin 42,Italy
+resto_167,george_michael,44,36,29,farmer_steve,43,3,Greek,9,Brian Cohen,La Petite Maison 12,France
+resto_168,george_michael,50,24,13,local_goods,1,3,Thai,3,Jeffrey Torres,Grill 23 & Bar 37 87,Germany
+resto_169,owner_mcownerface,4,35,5,farm_fresh,16,1,Spanish,1,Lisa Garcia,Velvet Taco,Spain
+resto_170,amir_khan,50,26,43,local_goods,6,1,American,4,Catherine Wilson,Marble & Rye 32,Japan
+resto_171,amir_khan,33,2,42,local_goods,43,3,Italian,6,Ryan Romero,Gordon Ramsay Steak 45 95,India
+resto_172,amir_khan,34,28,40,farmer_steve,11,2,Spanish,10,Jessica Hill,Harvest Moon Cafe 21,Brazil
+resto_173,amir_khan,24,1,1,farm_fresh,39,3,Japanese,8,Tyler Lee,Olive & Thyme 7,Mexico
+resto_174,owner_mcownerface,48,4,9,farmer_steve,32,1,French,10,Angela Page,Garden Bistro 24,Canada
+resto_175,amir_khan,36,28,32,farm_fresh,38,3,French,9,Gabrielle Lee,Maple & Ash 19 69 169,Australia
+resto_176,george_michael,33,38,34,farm_fresh,3,3,Chinese,3,Mary Martinez,Bella Cucina 4,South Korea
+resto_177,george_michael,23,41,24,farmer_steve,28,2,American,6,Craig Baker,Velvet Taco 34 134,United Kingdom
+resto_178,linda_smith,32,31,31,local_goods,38,1,Thai,7,Dillon Sims,Noble Fare,Netherlands
+resto_179,amir_khan,7,49,31,farm_fresh,50,3,Spanish,7,Ashley Marshall,The Greenhouse 14 64,Sweden
+resto_180,owner_mcownerface,45,25,18,farmer_steve,23,1,Spanish,7,Stephanie Fields,The Curry Leaf 11,Greece
+resto_181,owner_mcownerface,28,26,38,farmer_steve,48,2,Spanish,5,Patricia Evans,Bella Cucina 4 54 154,Italy
+resto_182,linda_smith,35,34,15,farm_fresh,21,3,Mexican,3,Jacob Barnett,The Capital Grille 41,France
+resto_183,linda_smith,24,41,16,local_goods,35,1,American,4,Bradley Snyder,La Petite Maison 12,Germany
+resto_184,amir_khan,6,40,23,farm_fresh,34,2,Indian,5,Gina Ortega,L'Atelier 39,Spain
+resto_185,amir_khan,15,36,29,local_goods,14,3,Mexican,7,Christian Warner,The Greenhouse,Japan
+resto_186,owner_mcownerface,33,19,8,farmer_steve,40,3,Mexican,7,Danielle Owens,Zest Kitchen 27 127,India
+resto_187,george_michael,3,2,48,farm_fresh,44,1,American,6,Whitney Andrews,The Whale’s Tail 31 131,Brazil
+resto_188,owner_mcownerface,19,3,46,farm_fresh,31,2,Spanish,2,Dennis Martinez,Noble Fare 29 79,Mexico
+resto_189,linda_smith,38,37,10,farmer_steve,46,1,Mexican,1,Cheyenne Nelson,Midnight Diner 17 67,Canada
+resto_190,owner_mcownerface,24,44,6,local_goods,24,2,American,3,Robert Reed,Joël Robuchon 46,Australia
+resto_191,owner_mcownerface,23,45,49,farmer_steve,39,2,American,10,Joseph Richardson,The Hungry Hippo 6,South Korea
+resto_192,owner_mcownerface,41,43,16,farmer_steve,18,2,Thai,4,Sally Williamson,The French Laundry 49,United Kingdom
+resto_193,amir_khan,39,7,9,farm_fresh,46,3,Greek,8,Becky Walker,The Oak Room 18 118,Netherlands
+resto_194,amir_khan,14,45,5,local_goods,44,2,Japanese,4,Susan Mcpherson,Fork & Barrel,Sweden
+resto_195,george_michael,33,22,25,local_goods,24,2,Mexican,6,Darrell Villegas,Urban Palate 10 60,Greece
+resto_196,george_michael,31,33,6,farm_fresh,11,1,French,4,Margaret Cooper,Velvet Taco 34 84 184,Italy
+resto_197,owner_mcownerface,6,25,46,farm_fresh,13,1,Greek,1,Melvin Sharp,Velvet Taco 34,France
+resto_198,amir_khan,21,32,47,local_goods,24,2,Japanese,9,Mark Juarez,Marble & Rye 32 82,Germany
+resto_199,george_michael,8,39,5,farm_fresh,42,2,Thai,10,Mary Moreno,Fire & Ice Grill 9 59,Spain
+resto_200,owner_mcownerface,31,17,3,local_goods,42,1,Chinese,4,Kyle Pacheco,Harvest Moon Cafe 21,Japan
+resto_201,amir_khan,49,5,35,farmer_steve,34,1,Mexican,9,Edward Nguyen,Eleven Madison Park 44,India
+resto_202,owner_mcownerface,19,15,37,farm_fresh,19,3,Indian,4,Ryan Chen,Café Boulud 43,Brazil
+resto_203,linda_smith,32,6,14,farmer_steve,16,3,Italian,6,Daniel Bridges,The Oak Room 18 68,Mexico
+resto_204,amir_khan,44,18,42,farmer_steve,2,3,French,8,Jennifer Sanchez,The Golden Spoon 0,Canada
+resto_205,amir_khan,5,21,20,farm_fresh,29,1,American,9,Andres Drake,Maple & Ash 19 119,Australia
+resto_206,amir_khan,6,47,49,local_goods,47,1,Italian,10,April Bishop,The Whale’s Tail 31 81 181,South Korea
+resto_207,george_michael,33,7,21,local_goods,49,2,Chinese,8,Stephanie Henry,Grill 23 & Bar 37,United Kingdom
+resto_208,george_michael,23,26,25,farm_fresh,1,2,Thai,3,Kristen Martin,Olive & Thyme,Netherlands
+resto_209,owner_mcownerface,23,10,29,farm_fresh,41,3,Mexican,5,Brady Adams,Daniel 48 148,Sweden
+resto_210,george_michael,16,19,10,farm_fresh,35,1,Chinese,9,Elizabeth James,Bouchon Bistro 36,Greece
+resto_211,linda_smith,26,29,50,farm_fresh,44,1,Japanese,9,James Carlson,Marble & Rye 32 132,Italy
+resto_212,george_michael,29,5,8,farm_fresh,31,2,Indian,2,Brandon Berry,Sunset Terrace 20,France
+resto_213,owner_mcownerface,26,16,41,local_goods,27,2,American,10,Zachary Davis,Wolfgang Puck Bar & Grill 35 85,Germany
+resto_214,linda_smith,24,12,10,farmer_steve,41,2,Chinese,5,Connie Stephens,Eleven Madison Park 44 94,Spain
+resto_215,george_michael,23,30,42,farmer_steve,30,2,Spanish,1,Brittany Gomez,The Hungry Hippo 6 106,Japan
+resto_216,linda_smith,15,17,19,local_goods,41,2,Italian,3,Samantha Horton,The Rustic Fork 3,India
+resto_217,linda_smith,43,36,34,local_goods,7,2,Japanese,9,Edward Fisher,The Hungry Hippo,Brazil
+resto_218,linda_smith,17,11,2,local_goods,2,2,Italian,2,Brittany Austin,Grill 23 & Bar 37 137,Mexico
+resto_219,george_michael,12,45,40,farm_fresh,5,2,Italian,7,Robert Small,Fig & Olive 40 140,Canada
+resto_220,linda_smith,46,10,45,farm_fresh,32,3,Italian,2,Michael Williams,Joël Robuchon 46,Australia
+resto_221,linda_smith,13,45,27,local_goods,5,2,Italian,6,Charles Wells,Grill 23 & Bar 37,South Korea
+resto_222,linda_smith,33,10,19,local_goods,3,1,Spanish,7,Matthew Armstrong,L'Atelier 39,United Kingdom
+resto_223,linda_smith,50,42,37,farmer_steve,27,2,Greek,8,Karen Davis,Urban Palate 10,Netherlands
+resto_224,amir_khan,3,47,13,farmer_steve,29,1,Japanese,1,Brandi Chapman,Wolfgang Puck Bar & Grill 35,Sweden
+resto_225,owner_mcownerface,40,41,25,local_goods,22,3,Chinese,6,Derek Norris,Zest Kitchen 27 77,Greece
+resto_226,linda_smith,40,48,42,local_goods,14,3,American,6,William Gomez,Garden Bistro 24 124,Italy
+resto_227,linda_smith,14,14,16,local_goods,9,1,American,1,Angela Ponce,Cedar House 28 78 178,France
+resto_228,owner_mcownerface,34,44,45,farm_fresh,35,3,American,6,Gloria Brown,Urban Palate 10 60,Germany
+resto_229,amir_khan,19,31,33,farmer_steve,16,3,Greek,5,Mark Lewis,Crimson & Clover 15,Spain
+resto_230,george_michael,33,32,30,local_goods,28,1,Italian,3,Evelyn Sanchez,Midnight Diner 17 67,Japan
+resto_231,amir_khan,41,43,28,local_goods,14,3,American,5,Robert Rivera,Bistro Lumiere 8 58,India
+resto_232,amir_khan,7,30,31,farm_fresh,11,1,Thai,3,Douglas Shah,Gordon Ramsay Steak 45,Brazil
+resto_233,linda_smith,17,17,30,farmer_steve,34,1,Mexican,1,Haley Gonzalez,Mango Tree,Mexico
+resto_234,owner_mcownerface,35,39,1,farm_fresh,49,3,Japanese,1,Patricia Cole,The Greenhouse 14,Canada
+resto_235,owner_mcownerface,50,7,7,local_goods,32,1,Chinese,8,Dawn Gonzalez,The Oak Room 18,Australia
+resto_236,owner_mcownerface,28,8,24,farm_fresh,37,1,French,7,Mark Jimenez,Garden Bistro 24 74,South Korea
+resto_237,amir_khan,5,31,14,farm_fresh,27,3,French,2,Teresa Weber,The Hungry Hippo 6 56 156,United Kingdom
+resto_238,owner_mcownerface,19,37,45,local_goods,24,2,Thai,2,Angela Faulkner,Daniel 48 98,Netherlands
+resto_239,linda_smith,13,25,16,farm_fresh,50,2,Indian,6,Derek Phillips,Daniel 48 98,Sweden
+resto_240,linda_smith,26,9,17,local_goods,29,2,American,5,Ryan Brady,Fig & Olive 40 90,Greece
+resto_241,linda_smith,34,11,23,local_goods,14,1,Chinese,1,Benjamin Meyers,Bella Cucina 4,Italy
+resto_242,amir_khan,42,18,4,local_goods,18,1,Spanish,1,Jennifer Parks,The Golden Spoon 0 50 150,France
+resto_243,george_michael,11,12,2,farmer_steve,24,1,French,3,Kelsey Reed,Zest Kitchen 27 77,Germany
+resto_244,linda_smith,19,25,23,local_goods,19,1,Italian,7,Gavin Warren,Fig & Olive 40 90 190,Spain
+resto_245,linda_smith,31,4,41,local_goods,7,1,Italian,8,Pamela Mason,Per Se 47 97,Japan
+resto_246,amir_khan,43,30,5,farm_fresh,33,1,Thai,6,Robert Wright,Red Lantern 30,India
+resto_247,linda_smith,4,3,40,farm_fresh,12,2,American,5,Ruth Chen,Saffron Table 5,Brazil
+resto_248,george_michael,23,17,18,farmer_steve,42,2,Thai,10,Emily Smith,Cedar House,Mexico
+resto_249,owner_mcownerface,21,48,24,farm_fresh,7,3,Japanese,5,Heather Long,Ocean's Delight 1 51 151,Canada
+resto_250,george_michael,7,31,36,local_goods,10,1,American,5,Thomas Herrera,Zest Kitchen 27 77,Australia
+resto_251,linda_smith,41,44,43,farm_fresh,9,1,American,5,Aaron Henderson,The French Laundry 49 99,South Korea
+resto_252,owner_mcownerface,10,38,34,farm_fresh,2,1,Italian,8,Nicole Vasquez,Le Bernardin 42 92,United Kingdom
+resto_253,linda_smith,43,22,28,farmer_steve,42,1,Thai,5,Lisa Harris,Fire & Ice Grill 9 59,Netherlands
+resto_254,linda_smith,48,15,23,farm_fresh,30,2,French,4,Kenneth Barry,Chez Panisse 38 88 188,Sweden
+resto_255,owner_mcownerface,36,49,14,farm_fresh,24,1,Japanese,4,Carolyn Stevens,Café Boulud 43,Greece
+resto_256,amir_khan,50,13,35,local_goods,45,1,Mexican,1,Casey Coleman,Zest Kitchen 27,Italy
+resto_257,owner_mcownerface,34,34,6,local_goods,45,2,Spanish,2,Phyllis Carpenter,Blue Hill Tavern 13 63,France
+resto_258,amir_khan,28,46,38,farmer_steve,26,3,Mexican,5,Amy Hudson,Velvet Taco 34 84,Germany
+resto_259,george_michael,24,38,35,farmer_steve,45,2,Indian,7,Jeffrey Lyons,The Curry Leaf 11 61,Spain
+resto_260,george_michael,48,30,13,farmer_steve,6,3,Chinese,5,Joy Smith,Velvet Taco 34 84,Japan
+resto_261,amir_khan,20,38,15,farmer_steve,20,1,Japanese,8,Matthew Brandt,Bistro Lumiere 8,India
+resto_262,george_michael,10,26,21,local_goods,28,2,Mexican,5,Scott Evans,Blue Hill Tavern 13 63 163,Brazil
+resto_263,linda_smith,39,27,45,farmer_steve,28,2,Chinese,5,Rodney Crawford,Fire & Ice Grill 9 109,Mexico
+resto_264,owner_mcownerface,38,41,50,farm_fresh,5,3,Italian,7,Kayla Stevenson,The Golden Spoon 0 100,Canada
+resto_265,owner_mcownerface,45,39,12,farm_fresh,37,2,Chinese,9,Curtis Owens,Joël Robuchon 46 96 196,Australia
+resto_266,amir_khan,30,11,31,farmer_steve,45,2,American,9,Angela Perry,Le Bernardin 42 92 192,South Korea
+resto_267,owner_mcownerface,48,44,41,farmer_steve,26,1,American,5,Larry Smith,The Oak Room 18 68,United Kingdom
+resto_268,linda_smith,15,26,50,farmer_steve,20,3,Greek,7,Victoria Mejia,Fork & Barrel 25 75,Netherlands
+resto_269,amir_khan,39,4,46,farm_fresh,49,3,Italian,9,Richard Harvey,The Melting Pot 22 72 172,Sweden
+resto_270,linda_smith,27,8,7,local_goods,10,1,American,3,David Casey,Bella Cucina 4 104,Greece
+resto_271,owner_mcownerface,16,48,13,local_goods,18,2,American,2,Jesus Brown,Ocean's Delight 1 51,Italy
+resto_272,george_michael,22,23,36,farm_fresh,45,2,American,7,Jacqueline Powell,Mango Tree 26 76 176,France
+resto_273,george_michael,9,6,47,local_goods,26,1,Japanese,6,David Martinez,Per Se 47 97 197,Germany
+resto_274,owner_mcownerface,34,45,14,farmer_steve,26,2,Japanese,10,Misty Brown,Crimson & Clover 15,Spain
+resto_275,linda_smith,27,24,49,local_goods,11,3,Mexican,7,Travis Zimmerman,The French Laundry 49 149,Japan
+resto_276,linda_smith,29,1,12,farm_fresh,49,3,Spanish,4,Edward Harris,Crimson & Clover 15 65,India
+resto_277,george_michael,8,36,37,farmer_steve,36,1,Chinese,10,Peter Roman,The Melting Pot,Brazil
+resto_278,linda_smith,20,25,45,farmer_steve,10,3,Mexican,6,Kelly Martinez,Per Se 47,Mexico
+resto_279,linda_smith,40,47,39,farm_fresh,6,1,French,7,Bruce Davis,Spice Symphony 2 52,Canada
+resto_280,george_michael,23,3,26,farmer_steve,39,3,Japanese,2,Karen Stanley,Sunset Terrace 20 70,Australia
+resto_281,linda_smith,12,23,10,local_goods,45,1,Indian,1,Gary Jordan,Olive & Thyme 7,South Korea
+resto_282,owner_mcownerface,29,27,48,farm_fresh,1,3,Spanish,6,Katherine Rodriguez,Noble Fare 29 129,United Kingdom
+resto_283,amir_khan,49,9,23,farmer_steve,18,1,American,7,Lisa Howard,Echo & Rig,Netherlands
+resto_284,amir_khan,42,30,45,farm_fresh,49,1,Indian,7,Mary Harding,Eleven Madison Park 44 94,Sweden
+resto_285,linda_smith,8,44,25,farmer_steve,49,3,Japanese,7,Alexandria Maxwell,Blue Hill Tavern 13 113,Greece
+resto_286,amir_khan,17,34,30,farmer_steve,49,1,Spanish,2,James Perry,Saffron Table 5 55,Italy
+resto_287,linda_smith,38,17,47,farm_fresh,6,3,Chinese,10,Timothy Delacruz,Red Lantern 30,France
+resto_288,owner_mcownerface,40,6,7,farm_fresh,22,2,Italian,9,Kelly Hudson,The Rustic Fork 3 53 153,Germany
+resto_289,amir_khan,16,16,17,local_goods,13,1,Spanish,10,Alexander Greer,Le Bernardin 42,Spain
+resto_290,linda_smith,8,26,10,local_goods,31,3,Mexican,9,Cheryl Miller,Midnight Diner,Japan
+resto_291,owner_mcownerface,42,7,25,farmer_steve,32,2,American,3,Crystal Flores,Marble & Rye 32,India
+resto_292,linda_smith,35,21,14,farmer_steve,6,3,American,9,Austin Medina,Grill 23 & Bar 37 87 187,Brazil
+resto_293,george_michael,31,32,28,local_goods,49,3,Thai,2,Timothy Moran,Savory Street 16 66,Mexico
+resto_294,george_michael,47,12,24,local_goods,43,1,American,5,Andrew Richardson,Fig & Olive,Canada
+resto_295,george_michael,26,14,26,local_goods,19,2,Spanish,5,Deborah Shaw,Midnight Diner 17 67,Australia
+resto_296,amir_khan,9,16,40,local_goods,16,3,Chinese,5,Jeffrey Sanders,Fig & Olive 40,South Korea
+resto_297,owner_mcownerface,15,12,23,farm_fresh,27,1,Italian,2,William Lane,Olive & Thyme 7 57,United Kingdom
+resto_298,linda_smith,44,14,46,farm_fresh,25,2,Italian,3,Melinda Wise,Velvet Taco 34,Netherlands
+resto_299,george_michael,45,35,37,farm_fresh,5,2,Japanese,7,Molly Jones,Cedar House 28 78,Sweden
+resto_300,owner_mcownerface,3,9,44,local_goods,5,1,Spanish,2,Brooke Todd,Fig & Olive 40 90,Greece
+resto_301,owner_mcownerface,37,42,18,local_goods,19,1,French,9,Regina Martin,Mango Tree 26 76,Italy
+resto_302,linda_smith,6,34,29,local_goods,23,2,Greek,10,Jack Jones,The Capital Grille 41,France
+resto_303,owner_mcownerface,17,16,44,farm_fresh,31,2,French,8,Darlene Wheeler,Gordon Ramsay Steak 45 95,Germany
+resto_304,george_michael,17,4,25,farmer_steve,43,2,American,8,Nicole Jones,Fire & Ice Grill,Spain
+resto_305,george_michael,7,21,48,farmer_steve,36,2,Japanese,10,Joseph Williamson,The Whale’s Tail 31,Japan
+resto_306,george_michael,38,11,40,local_goods,23,1,American,10,Stephanie Sutton,Urban Palate 10,India
+resto_307,linda_smith,36,47,39,local_goods,3,2,Greek,9,Mark Murray,Daniel 48,Brazil
+resto_308,linda_smith,29,45,18,local_goods,32,1,Chinese,6,Shawn Flynn,The French Laundry,Mexico
+resto_309,owner_mcownerface,32,17,17,farm_fresh,3,3,Japanese,9,Breanna Hughes,Marble & Rye 32 82 182,Canada
+resto_310,owner_mcownerface,36,29,16,local_goods,44,2,Italian,4,Kenneth Solis,Echo & Rig 23 73 173,Australia
+resto_311,amir_khan,7,33,38,farmer_steve,40,2,Japanese,4,Nicholas Colon,Joël Robuchon 46 96,South Korea
+resto_312,amir_khan,21,44,3,local_goods,14,2,American,5,Katherine Douglas,L'Atelier 39 89,United Kingdom
+resto_313,amir_khan,45,48,8,farmer_steve,32,3,Italian,3,Taylor Chung,Garden Bistro 24,Netherlands
+resto_314,george_michael,25,5,21,farmer_steve,10,1,French,10,Emily Coleman,Fire & Ice Grill 9,Sweden
+resto_315,owner_mcownerface,22,48,49,farmer_steve,18,1,Italian,8,Jane Frazier,Bouchon Bistro 36 86,Greece
+resto_316,amir_khan,25,33,32,farm_fresh,43,1,French,2,Deanna Reynolds,Daniel 48 98 198,Italy
+resto_317,amir_khan,40,36,49,local_goods,15,1,French,1,Hunter Berger,Garden Bistro 24 74 174,France
+resto_318,george_michael,18,5,1,local_goods,19,3,Thai,8,Danielle Martin,The Curry Leaf,Germany
+resto_319,george_michael,26,35,49,farm_fresh,1,3,Thai,9,Matthew Ryan,Le Bernardin 42 92,Spain
+resto_320,owner_mcownerface,10,18,30,farmer_steve,20,3,Spanish,1,Amanda Foster,The Rustic Fork 3,Japan
+resto_321,george_michael,36,20,20,farm_fresh,30,2,American,2,Gary Brandt,Midnight Diner 17 117,India
+resto_322,owner_mcownerface,4,30,11,farm_fresh,35,2,Indian,10,Nicole Robertson,Savory Street 16 66,Brazil
+resto_323,owner_mcownerface,7,31,50,farmer_steve,7,2,American,7,Jill Gibson,Fork & Barrel 25,Mexico
+resto_324,george_michael,2,36,23,local_goods,29,2,Italian,9,Matthew Davis,Mango Tree 26 126,Canada
+resto_325,owner_mcownerface,48,42,28,farm_fresh,34,3,Spanish,5,Alison Chase,The Capital Grille 41,Australia
+resto_326,owner_mcownerface,48,32,37,farmer_steve,7,3,Japanese,2,Catherine Brown,The Greenhouse 14 64 164,South Korea
+resto_327,george_michael,9,7,27,farmer_steve,40,1,Chinese,7,Kenneth Pitts,Crimson & Clover 15 65,United Kingdom
+resto_328,george_michael,49,37,44,farm_fresh,10,3,Italian,8,Sharon House,L'Atelier 39 139,Netherlands
+resto_329,owner_mcownerface,13,12,22,farmer_steve,31,2,Chinese,1,William Collins,Fork & Barrel 25 125,Sweden
+resto_330,amir_khan,18,5,48,farm_fresh,4,2,Chinese,9,Steven Pope,Bella Cucina 4,Greece
+resto_331,george_michael,18,17,11,local_goods,46,2,Thai,10,Willie Harrison,Olive & Thyme 7 57,Italy
+resto_332,owner_mcownerface,40,36,32,local_goods,28,2,Japanese,8,Nicole Warren,Marble & Rye,France
+resto_333,george_michael,31,17,46,farmer_steve,22,1,Japanese,3,Sean Sellers,Bella Cucina 4 54,Germany
+resto_334,amir_khan,38,36,45,farmer_steve,33,3,Greek,8,Jose Payne,The Golden Spoon 0,Spain
+resto_335,linda_smith,16,10,16,local_goods,41,3,American,1,Charles Simpson,The Curry Leaf 11 61 161,Japan
+resto_336,george_michael,29,32,10,farmer_steve,43,3,Chinese,4,Louis Porter,The Melting Pot 22,India
+resto_337,owner_mcownerface,46,24,25,farm_fresh,6,1,Spanish,5,Kayla Norris,Garden Bistro 24 74,Brazil
+resto_338,george_michael,45,30,9,farmer_steve,18,3,Thai,7,Robert Wright,The Greenhouse 14,Mexico
+resto_339,george_michael,25,49,20,farmer_steve,13,3,French,8,Kyle Hardin,Saffron Table 5 55,Canada
+resto_340,george_michael,47,48,49,farmer_steve,1,3,Chinese,1,Jody George,The Melting Pot 22,Australia
+resto_341,amir_khan,35,8,16,farmer_steve,42,2,Greek,3,Claudia Nunez,Per Se 47 97,South Korea
+resto_342,owner_mcownerface,23,23,38,local_goods,23,3,Spanish,3,Allison Petersen,The Rustic Fork 3,United Kingdom
+resto_343,george_michael,9,30,15,farmer_steve,47,2,Italian,9,Brian Anderson,Chez Panisse 38,Netherlands
+resto_344,george_michael,2,2,19,farm_fresh,45,1,Japanese,7,Preston Gonzalez,Bistro Lumiere 8 58,Sweden
+resto_345,owner_mcownerface,50,14,41,farm_fresh,9,1,Spanish,10,Duane Chan,The Violet Hour 33,Greece
+resto_346,amir_khan,18,32,27,local_goods,18,3,Chinese,9,Natasha Aguilar,Grill 23 & Bar 37 87,Italy
+resto_347,linda_smith,23,31,23,farmer_steve,48,2,Thai,8,Sandra Monroe,Red Lantern 30 80 180,France
+resto_348,linda_smith,9,40,15,farmer_steve,10,1,Thai,5,Patrick Gallegos,Ocean's Delight 1 51,Germany
+resto_349,owner_mcownerface,43,35,25,local_goods,29,3,Indian,9,Michael Simmons,Wolfgang Puck Bar & Grill 35 85 185,Spain
+resto_350,george_michael,22,18,50,farm_fresh,20,2,Japanese,10,Jessica Harris,Savory Street,Japan
+resto_351,amir_khan,4,26,3,farm_fresh,22,2,French,4,Pamela Rhodes,Cedar House 28,India
+resto_352,owner_mcownerface,17,39,29,farmer_steve,1,3,Greek,1,Clarence Mercado,Le Bernardin,Brazil
+resto_353,george_michael,32,27,1,farm_fresh,46,2,Spanish,3,Nicholas Taylor,The Hungry Hippo 6 56,Mexico
+resto_354,linda_smith,36,37,2,farm_fresh,18,3,Greek,3,Daniel Blair,Garden Bistro 24 74,Canada
+resto_355,linda_smith,2,32,40,farmer_steve,20,1,French,6,Joshua Mckinney,Chez Panisse 38 88,Australia
+resto_356,george_michael,32,28,3,local_goods,23,1,Thai,3,Darrell Blevins,The Hungry Hippo 6 56,South Korea
+resto_357,linda_smith,45,19,50,farm_fresh,29,1,Japanese,3,Brandy Young,Eleven Madison Park 44,United Kingdom
+resto_358,george_michael,46,27,27,farm_fresh,21,3,Thai,2,Jessica Peters,L'Atelier 39,Netherlands
+resto_359,amir_khan,14,28,33,farm_fresh,31,3,French,2,Cassandra Camacho,Zest Kitchen,Sweden
+resto_360,george_michael,44,42,24,farmer_steve,46,2,Thai,8,Martin Barnett,Garden Bistro 24,Greece
+resto_361,amir_khan,1,42,12,farm_fresh,39,1,Indian,5,Susan Leach,Wolfgang Puck Bar & Grill,Italy
+resto_362,owner_mcownerface,3,5,9,farmer_steve,16,3,French,1,Ruben Robbins,Blue Hill Tavern 13,France
+resto_363,linda_smith,3,29,17,farm_fresh,19,1,Japanese,10,Linda Wu,Zest Kitchen 27,Germany
+resto_364,linda_smith,10,42,18,farmer_steve,38,1,Thai,4,Kelsey Smith,Café Boulud 43 93,Spain
+resto_365,george_michael,21,19,23,farm_fresh,41,1,Spanish,2,Heidi Hill,The Golden Spoon 0,Japan
+resto_366,owner_mcownerface,27,15,15,farmer_steve,32,1,Greek,1,Michael Bartlett,Cedar House 28 78,India
+resto_367,amir_khan,16,45,24,farmer_steve,50,1,Thai,8,Megan Thompson,The Golden Spoon 0,Brazil
+resto_368,amir_khan,27,2,18,farm_fresh,4,1,Mexican,9,Kathryn Stewart,Red Lantern 30,Mexico
+resto_369,george_michael,33,36,41,farm_fresh,6,3,Mexican,1,Susan Huffman,Saffron Table 5 105,Canada
+resto_370,george_michael,3,14,11,local_goods,8,2,Indian,7,Derek Fowler,Gordon Ramsay Steak,Australia
+resto_371,amir_khan,13,21,15,local_goods,8,3,Italian,8,Drew Weber,The Whale’s Tail 31,South Korea
+resto_372,amir_khan,10,8,41,local_goods,35,1,Chinese,5,Kristy Myers,The Capital Grille 41 91 191,United Kingdom
+resto_373,linda_smith,34,9,8,farmer_steve,21,3,Japanese,10,Walter Martinez,The Rustic Fork 3 53,Netherlands
+resto_374,george_michael,6,31,8,local_goods,28,2,Mexican,9,James Burns,Spice Symphony 2 52,Sweden
+resto_375,george_michael,37,7,6,local_goods,37,3,Chinese,8,Lorraine Hubbard,Fork & Barrel 25 75 175,Greece
+resto_376,amir_khan,33,11,37,farmer_steve,7,3,French,2,Anne Douglas,Le Bernardin 42 142,Italy
+resto_377,george_michael,49,44,21,farm_fresh,31,3,Greek,7,Kyle West,Chez Panisse 38,France
+resto_378,linda_smith,50,6,16,farm_fresh,18,3,Mexican,2,Victoria Ellison,Bouchon Bistro 36 86,Germany
+resto_379,owner_mcownerface,31,16,31,farmer_steve,50,1,Indian,10,Kimberly Wise,Zest Kitchen 27,Spain
+resto_380,amir_khan,38,28,45,farm_fresh,41,3,Mexican,8,Mark Snow,Bella Cucina 4,Japan
+resto_381,george_michael,50,43,33,farm_fresh,43,3,Chinese,9,Charles Sandoval,The Rustic Fork 3,India
+resto_382,george_michael,1,45,39,farmer_steve,39,2,Chinese,9,Tyler Martinez,The Violet Hour 33,Brazil
+resto_383,george_michael,20,9,10,farm_fresh,10,3,Indian,7,Jay Long,The Violet Hour,Mexico
+resto_384,amir_khan,42,31,3,farmer_steve,38,3,Greek,4,Jonathan Pierce,Fire & Ice Grill 9,Canada
+resto_385,linda_smith,35,25,12,local_goods,7,2,American,1,Heidi Wells,Harvest Moon Cafe 21,Australia
+resto_386,linda_smith,20,29,39,farm_fresh,39,1,Indian,7,Carolyn Watson,Midnight Diner 17,South Korea
+resto_387,linda_smith,27,2,4,farmer_steve,26,3,French,8,Patricia Campbell,The Violet Hour 33 133,United Kingdom
+resto_388,george_michael,23,47,18,farm_fresh,49,3,Mexican,6,Joel Flowers,Mango Tree 26,Netherlands
+resto_389,amir_khan,50,35,23,farmer_steve,17,2,American,4,Shane Bryant,Saffron Table,Sweden
+resto_390,george_michael,2,6,32,farmer_steve,33,3,Spanish,10,Elizabeth Lewis,Bouchon Bistro,Greece
+resto_391,owner_mcownerface,15,24,35,farmer_steve,11,2,Thai,5,Kevin Ball,The Rustic Fork 3 103,Italy
+resto_392,owner_mcownerface,23,30,22,local_goods,7,1,Japanese,9,Brian Salazar,Echo & Rig 23,France
+resto_393,owner_mcownerface,17,21,15,farmer_steve,47,2,Thai,5,Linda Williams,Chez Panisse 38 88,Germany
+resto_394,amir_khan,28,1,8,farmer_steve,44,2,American,5,Emma Martin,Wolfgang Puck Bar & Grill 35 85,Spain
+resto_395,linda_smith,50,38,48,farm_fresh,25,3,Chinese,2,Christine Andersen,Urban Palate 10 60,Japan
+resto_396,owner_mcownerface,41,43,35,farmer_steve,17,1,Indian,7,Rebecca Moon,The Greenhouse 14 114,India
+resto_397,amir_khan,3,7,20,farmer_steve,26,3,Thai,2,Angela Bishop,Bistro Lumiere 8,Brazil
+resto_398,amir_khan,46,19,31,farmer_steve,4,1,Japanese,7,Allison Brown,Crimson & Clover 15 115,Mexico
+resto_399,amir_khan,18,48,1,farm_fresh,7,1,Thai,8,Christine Schmidt,The Greenhouse 14 64,Canada
+resto_400,amir_khan,1,6,20,local_goods,39,1,Greek,8,Krista Ball,Blue Hill Tavern 13 63,Australia
+resto_401,linda_smith,27,28,23,farm_fresh,25,1,Mexican,8,Thomas Grant,The Hungry Hippo 6 56,South Korea
+resto_402,george_michael,35,6,25,farmer_steve,16,1,Greek,10,Kelly Anderson,The Melting Pot 22 72,United Kingdom
+resto_403,linda_smith,27,25,44,farmer_steve,39,1,American,6,Brian Cook,The Hungry Hippo 6,Netherlands
+resto_404,owner_mcownerface,39,12,6,farm_fresh,27,3,American,10,Alec Turner,Maple & Ash 19,Sweden
+resto_405,owner_mcownerface,4,35,26,farm_fresh,23,3,Spanish,10,Gregory Parker,La Petite Maison 12 62,Greece
+resto_406,george_michael,16,22,8,farmer_steve,27,2,French,4,Benjamin Sullivan,Per Se 47,Italy
+resto_407,owner_mcownerface,45,30,5,local_goods,39,3,Japanese,7,Angela Martinez,Gordon Ramsay Steak 45 95 195,France
+resto_408,george_michael,14,33,11,farm_fresh,5,3,Chinese,8,Carlos Jimenez,Fig & Olive 40,Germany
+resto_409,amir_khan,39,1,22,local_goods,18,2,Chinese,5,Rebecca Perez,The Violet Hour 33 83,Spain
+resto_410,amir_khan,49,32,41,farmer_steve,3,3,Spanish,2,Kyle Schmidt,Red Lantern 30 80,Japan
+resto_411,george_michael,43,1,29,local_goods,21,1,Indian,8,Mary Harrington,Fig & Olive 40,India
+resto_412,owner_mcownerface,43,33,14,farm_fresh,47,2,French,9,Carlos Ingram,Le Bernardin 42,Brazil
+resto_413,george_michael,39,24,9,farmer_steve,13,2,French,9,James Anderson,Fork & Barrel 25 75,Mexico
+resto_414,amir_khan,1,47,8,farm_fresh,36,2,Italian,6,Matthew Conrad,Chez Panisse 38 138,Canada
+resto_415,amir_khan,16,15,20,farm_fresh,50,2,Spanish,9,Kylie Norman,The Whale’s Tail 31,Australia
+resto_416,george_michael,40,35,44,farm_fresh,32,1,Japanese,7,Catherine Rosario,Wolfgang Puck Bar & Grill 35,South Korea
+resto_417,owner_mcownerface,11,11,9,farm_fresh,47,1,Indian,10,Kathleen Heath,Grill 23 & Bar 37,United Kingdom
+resto_418,owner_mcownerface,2,13,48,farmer_steve,9,1,Indian,7,Thomas Becker,L'Atelier 39 89,Netherlands
+resto_419,amir_khan,2,34,32,farmer_steve,48,3,Mexican,4,Brian Perry,Wolfgang Puck Bar & Grill 35 85,Sweden
+resto_420,owner_mcownerface,48,20,49,farm_fresh,3,2,Italian,9,Amy Phillips,Eleven Madison Park,Greece
+resto_421,amir_khan,18,28,34,farm_fresh,32,1,Indian,1,David Braun,Saffron Table 5,Italy
+resto_422,owner_mcownerface,38,24,7,local_goods,42,3,Greek,8,Kristin Mcguire,Bouchon Bistro 36 86,France
+resto_423,amir_khan,17,50,37,farmer_steve,26,1,French,10,Frank Wolf,Ocean's Delight 1 101,Germany
+resto_424,linda_smith,10,19,46,farmer_steve,8,2,French,5,Christopher Johnson,The Oak Room 18 68 168,Spain
+resto_425,amir_khan,15,31,35,farmer_steve,5,1,American,3,Amanda Simon,Bouchon Bistro 36,Japan
+resto_426,george_michael,15,17,18,farmer_steve,46,2,Spanish,10,Ashley Shaw,Marble & Rye 32,India
+resto_427,amir_khan,47,17,14,farm_fresh,50,2,Spanish,8,Tony Blackburn,Saffron Table 5,Brazil
+resto_428,linda_smith,46,5,40,local_goods,47,1,Mexican,5,Joseph Lloyd,The Curry Leaf 11,Mexico
+resto_429,george_michael,3,49,15,farmer_steve,25,1,American,2,Jamie Gutierrez,Fire & Ice Grill 9,Canada
+resto_430,linda_smith,28,39,1,local_goods,31,1,Chinese,5,Kathleen Williams,The Melting Pot 22,Australia
+resto_431,linda_smith,11,17,31,farm_fresh,3,2,Spanish,4,Greg Hood,Harvest Moon Cafe 21 71,South Korea
+resto_432,george_michael,21,40,16,farm_fresh,14,1,American,3,David Sanders,Joël Robuchon 46 96,United Kingdom
+resto_433,amir_khan,47,27,22,farm_fresh,42,1,Mexican,6,Ann Sullivan,Noble Fare 29 79,Netherlands
+resto_434,linda_smith,32,19,42,farm_fresh,44,2,Japanese,5,John Braun,Fig & Olive 40 90,Sweden
+resto_435,amir_khan,9,42,1,farm_fresh,24,2,Chinese,9,Lauren Guzman,Sunset Terrace 20,Greece
+resto_436,owner_mcownerface,15,19,4,local_goods,34,3,Italian,1,Teresa Jones,Sunset Terrace,Italy
+resto_437,amir_khan,10,20,34,farmer_steve,44,2,Greek,4,George Sampson,The Violet Hour 33 83 183,France
+resto_438,amir_khan,22,21,48,farmer_steve,50,2,Indian,3,Ashley Harris,Gordon Ramsay Steak 45,Germany
+resto_439,owner_mcownerface,6,32,46,farm_fresh,30,1,Italian,1,Katherine Anderson,Savory Street 16,Spain
+resto_440,linda_smith,39,50,23,farm_fresh,13,1,Japanese,2,Andrew Adkins,Noble Fare 29 79,Japan
+resto_441,owner_mcownerface,3,24,22,local_goods,44,3,French,2,Danielle Guzman,Spice Symphony 2,India
+resto_442,linda_smith,12,30,13,local_goods,42,3,Spanish,1,Brandon Mcneil,La Petite Maison 12 112,Brazil
+resto_443,linda_smith,39,8,34,farm_fresh,49,3,Indian,2,Jason Lopez,Red Lantern 30,Mexico
+resto_444,amir_khan,27,19,31,local_goods,18,1,Indian,4,Whitney Marks,The Whale’s Tail,Canada
+resto_445,owner_mcownerface,19,17,4,local_goods,35,1,Greek,6,Jonathan Smith,Maple & Ash 19 69,Australia
+resto_446,george_michael,9,16,20,farmer_steve,4,1,Japanese,5,Diana Lambert,The Whale’s Tail 31 81,South Korea
+resto_447,owner_mcownerface,29,39,20,local_goods,30,3,Indian,8,Beth Holden,Olive & Thyme 7 57 157,United Kingdom
+resto_448,george_michael,48,26,2,farmer_steve,16,2,Indian,8,Nicole Haas,Bouchon Bistro 36,Netherlands
+resto_449,owner_mcownerface,37,16,18,farmer_steve,10,2,Thai,1,Natalie Sims,The Capital Grille 41,Sweden
+resto_450,owner_mcownerface,2,38,32,farm_fresh,12,3,Greek,3,Sabrina Young,Urban Palate 10 60 160,Greece
+resto_451,owner_mcownerface,47,6,26,farm_fresh,38,1,Spanish,8,Andrew Carroll,Bistro Lumiere 8 108,Italy
+resto_452,george_michael,11,18,2,farmer_steve,40,3,American,1,Alejandro Chase,Saffron Table 5,France
+resto_453,owner_mcownerface,7,48,35,farm_fresh,37,2,Mexican,2,Matthew Roberts,Crimson & Clover 15,Germany
+resto_454,amir_khan,32,43,42,farmer_steve,48,2,Mexican,9,Christopher Daniel,Café Boulud 43 93,Spain
+resto_455,amir_khan,23,9,2,local_goods,49,3,Chinese,6,Patricia Richardson,Mango Tree 26 76,Japan
+resto_456,amir_khan,20,15,44,local_goods,13,3,Spanish,1,Allison Johnson,Daniel 48 98,India
+resto_457,linda_smith,9,17,44,local_goods,6,1,Japanese,4,Patrick Thompson,Fork & Barrel 25 75,Brazil
+resto_458,amir_khan,43,2,39,farm_fresh,34,2,Japanese,9,Samantha Holt,The Capital Grille 41 91,Mexico
+resto_459,linda_smith,4,8,29,local_goods,10,2,French,9,Paul Soto,Crimson & Clover 15,Canada
+resto_460,owner_mcownerface,25,12,4,farmer_steve,29,1,Chinese,10,Richard Fox,Savory Street 16,Australia
+resto_461,linda_smith,29,38,50,local_goods,24,2,Japanese,1,Troy Williams,Joël Robuchon 46,South Korea
+resto_462,amir_khan,8,21,42,local_goods,39,3,Chinese,4,Patrick Allen,Ocean's Delight 1 51,United Kingdom
+resto_463,george_michael,33,38,49,farm_fresh,48,2,Mexican,3,Laura Sullivan,The Curry Leaf 11,Netherlands
+resto_464,amir_khan,40,9,1,local_goods,29,1,Greek,1,Brett Esparza,Eleven Madison Park 44,Sweden
+resto_465,amir_khan,45,12,14,farm_fresh,7,2,Greek,9,Joseph Rice,The Hungry Hippo 6,Greece
+resto_466,owner_mcownerface,33,8,12,local_goods,17,3,Italian,8,Amy Harris,The French Laundry 49,Italy
+resto_467,george_michael,6,35,35,farmer_steve,23,1,Thai,10,Christina Espinoza,La Petite Maison,France
+resto_468,owner_mcownerface,49,23,10,farmer_steve,30,1,Spanish,10,Becky Perkins,Echo & Rig 23 73,Germany
+resto_469,george_michael,47,50,10,local_goods,34,1,Japanese,3,Tamara Zimmerman,Maple & Ash,Spain
+resto_470,owner_mcownerface,22,12,21,farmer_steve,49,3,Japanese,1,Mark Diaz,Bella Cucina,Japan
+resto_471,owner_mcownerface,38,13,41,farmer_steve,15,2,Chinese,1,Audrey Madden,Zest Kitchen 27,India
+resto_472,george_michael,14,10,25,farmer_steve,16,1,Japanese,7,Anthony Allen,Ocean's Delight,Brazil
+resto_473,owner_mcownerface,15,43,43,local_goods,24,2,Mexican,5,Jordan Sandoval,Garden Bistro 24,Mexico
+resto_474,linda_smith,17,6,19,local_goods,34,1,Greek,1,Katie Martinez,Per Se 47 147,Canada
+resto_475,amir_khan,36,3,40,farmer_steve,42,2,Italian,4,Kimberly Rodriguez,The French Laundry 49,Australia
+resto_476,george_michael,3,23,11,local_goods,7,2,Indian,10,Tommy Hess,Gordon Ramsay Steak 45 95,South Korea
+resto_477,owner_mcownerface,12,41,10,farm_fresh,46,1,Thai,1,Paul Moore,Spice Symphony,United Kingdom
+resto_478,george_michael,40,2,15,farmer_steve,29,2,Thai,9,Amanda Bennett,Fire & Ice Grill 9 59 159,Netherlands
+resto_479,amir_khan,14,43,26,farm_fresh,39,3,Indian,10,Stephanie Whitaker,L'Atelier,Sweden
+resto_480,amir_khan,23,20,38,farm_fresh,4,2,American,1,Jennifer Young,Per Se,Greece
+resto_481,amir_khan,41,29,7,local_goods,47,2,Italian,5,Michelle Jones,La Petite Maison 12 62 162,Italy
+resto_482,linda_smith,50,31,24,farmer_steve,25,2,Mexican,5,Shannon Campbell,Wolfgang Puck Bar & Grill 35,France
+resto_483,george_michael,5,11,41,farm_fresh,8,1,French,6,Catherine Lopez,Olive & Thyme 7,Germany
+resto_484,amir_khan,5,34,2,farm_fresh,11,1,Chinese,8,David Wang,Café Boulud 43,Spain
+resto_485,linda_smith,2,16,12,local_goods,32,2,Italian,5,Rebecca Tanner,Savory Street 16,Japan
+resto_486,linda_smith,11,16,35,local_goods,49,1,American,6,Katherine Humphrey,Bistro Lumiere 8 58,India
+resto_487,owner_mcownerface,11,36,36,farmer_steve,33,1,Thai,5,Erika Mcmillan,Café Boulud 43 143,Brazil
+resto_488,amir_khan,37,27,6,local_goods,1,1,Chinese,7,Jenna Roberts,Savory Street 16,Mexico
+resto_489,george_michael,25,40,16,local_goods,10,3,Spanish,6,Leonard Rose,Cedar House 28,Canada
+resto_490,amir_khan,12,46,20,local_goods,6,2,Mexican,4,Debra Bailey,Bella Cucina 4 54,Australia
+resto_491,linda_smith,36,19,31,farm_fresh,21,3,Spanish,5,Laura Miller,Garden Bistro,South Korea
+resto_492,linda_smith,20,41,31,farm_fresh,41,2,Chinese,3,Joseph Carr,Fork & Barrel 25,United Kingdom
+resto_493,owner_mcownerface,34,7,41,local_goods,6,2,French,6,Casey Higgins,Bella Cucina 4 54,Netherlands
+resto_494,george_michael,28,33,50,local_goods,27,2,American,4,Sheila Valencia,Blue Hill Tavern 13,Sweden
+resto_495,george_michael,16,35,14,local_goods,24,3,Chinese,8,Robert Randolph,The Hungry Hippo 6,Greece
+resto_496,owner_mcownerface,18,20,3,farmer_steve,1,3,Spanish,8,Alison Sanchez,Café Boulud 43 93,Italy
+resto_497,amir_khan,34,10,43,farm_fresh,3,1,Indian,5,Garrett Dunn,Urban Palate 10 110,France
+resto_498,amir_khan,8,20,29,farmer_steve,46,3,French,9,Alexander Lewis,The Rustic Fork,Germany
+resto_499,owner_mcownerface,35,4,50,farm_fresh,47,2,French,10,Frank Salazar,Olive & Thyme 7,Spain
+resto_500,owner_mcownerface,6,12,24,farmer_steve,21,2,Thai,8,Lisa Moran,L'Atelier 39,Japan

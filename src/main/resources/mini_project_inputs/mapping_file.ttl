@@ -1,0 +1,79 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix : <http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6>.
+
+@prefix domain: <http://www.examples.org/restaurants#>.
+
+
+@base <http://restaurant.example.com/data/>.
+
+<#RestaurantMapping> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "restaurant_dataset.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+    rr:template "http://restaurant.example.com/data/{restaurant_id}";
+    rr:class <http://purl.obolibrary.org/obo/Restaurant>
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate dc:type;
+    rr:objectMap [
+      rml:reference "cuisine_type"
+    ]
+  ];
+
+  rr:predicateObjectMap [
+      rr:predicate domain:Supplier;
+      rr:objectMap [
+        rml:reference "Supplier"
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [
+      rml:reference "restaurant_name";
+    ]
+  ];
+
+
+  rr:predicateObjectMap [
+      rr:predicate domain:rating;
+      rr:objectMap [
+        rml:reference "rating";
+        rr:datatype xsd:float
+      ]
+  ];
+
+
+  rr:predicateObjectMap [
+      rr:predicate domain:michelin_star_number;
+      rr:objectMap [
+        rml:reference "michelin_star_number";
+        rr:datatype xsd:integer
+      ]
+    ];
+
+  rr:predicateObjectMap [
+        rr:predicate domain:employees;
+        rr:objectMap [
+          rml:reference "employees";
+          rr:datatype xsd:integer
+        ]
+      ];
+
+
+
+  rr:predicateObjectMap [
+    rr:predicate domain:country_name;
+    rr:objectMap [
+      rml:reference "country_name";
+    ]
+  ].
