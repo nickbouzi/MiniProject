@@ -7,53 +7,56 @@
 @prefix : <http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6>.
 
 @prefix domain: <http://www.examples.org/restaurants#>.
+@prefix emp_domain: <http://www.examples.org/employees#>.
+@prefix main_dish_domain: <http://www.examples.org/r#>.
+
 
 
 @base <http://restaurant.example.com/data/>.
 
 <#RestaurantMapping> a rr:TriplesMap;
-  rml:logicalSource [
-    rml:source "restaurant_dataset.csv" ;
+    rml:logicalSource [
+    rml:source "restaurants.csv" ;
     rml:referenceFormulation ql:CSV
-  ];
+    ];
 
-  rr:subjectMap [
+    rr:subjectMap [
     rr:template "http://restaurant.example.com/data/{restaurant_id}";
     rr:class <http://purl.obolibrary.org/obo/Restaurant>
-  ];
+    ];
 
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
     rr:predicate dc:type;
     rr:objectMap [
       rml:reference "cuisine_type"
     ]
-  ];
+    ];
 
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
       rr:predicate domain:Supplier;
       rr:objectMap [
         rml:reference "Supplier"
       ]
-  ];
+    ];
 
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
     rr:predicate rdfs:label;
     rr:objectMap [
       rml:reference "restaurant_name";
     ]
-  ];
+    ];
 
 
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
       rr:predicate domain:rating;
       rr:objectMap [
         rml:reference "rating";
         rr:datatype xsd:float
       ]
-  ];
+    ];
 
 
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
       rr:predicate domain:michelin_star_number;
       rr:objectMap [
         rml:reference "michelin_star_number";
@@ -61,7 +64,7 @@
       ]
     ];
 
-  rr:predicateObjectMap [
+    rr:predicateObjectMap [
         rr:predicate domain:employees;
         rr:objectMap [
           rml:reference "employees";
@@ -69,11 +72,108 @@
         ]
       ];
 
+    rr:predicateObjectMap [
+            rr:predicate :hasEmployee;
+            rr:objectMap [
+              rr:template "http://restaurant.example.com/data/{restaurant_id}/{employee_id}"
+            ]
+        ];
+    rr:predicateObjectMap [
+                rr:predicate :hasMain;
+                rr:objectMap [
+                  rr:template "http://restaurant.example.com/data/{restaurant_id}/{special_dish_id}"
+                ]
+            ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:country_name;
+        rr:objectMap [
+          rml:reference "country_name"
+        ]
+    ].
 
 
-  rr:predicateObjectMap [
-    rr:predicate domain:country_name;
-    rr:objectMap [
-      rml:reference "country_name";
-    ]
-  ].
+<#EmployeeMapping> a rr:TriplesMap;
+    rml:logicalSource [
+        rml:source "restaurants.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+        rr:template "http://restaurant.example.com/data/{restaurant_id}/{employee_id}";
+        rr:class :Employee
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate :hasRole;
+        rr:objectMap [
+            rr:template "http://restaurant.example.com/data/{employee_id}/{role_id_id}"
+        ]
+    ];
+
+    rr:predicateObjectMap [
+        rr:predicate domain:employee_name;
+        rr:objectMap [
+            rml:reference "employee_name"
+        ]
+    ].
+
+<#RoleMapping> a rr:TriplesMap;
+    rml:logicalSource [
+    rml:source "restaurants.csv" ;
+    rml:referenceFormulation ql:CSV
+    ];
+
+    rr:subjectMap [
+    rr:template "http://restaurant.example.com/data/{employee_id}/{role_id_id}";
+    rr:class :Role
+    ];
+
+    rr:predicateObjectMap [
+            rr:predicate domain:role_name;
+            rr:objectMap [
+              rml:reference "role_name";
+            ]
+    ].
+
+    <#SpecialDishMapping> a rr:TriplesMap;
+        rml:logicalSource [
+        rml:source "restaurants.csv" ;
+        rml:referenceFormulation ql:CSV
+        ];
+
+        rr:subjectMap [
+        rr:template "http://restaurant.example.com/data/{restaurant_id}/{special_dish_id}";
+        rr:class :Main
+        ];
+
+        rr:predicateObjectMap [
+                rr:predicate :hasIngredient;
+                rr:objectMap [
+                    rr:template "http://restaurant.example.com/data/{special_dish_id}/{ingredient_id}"
+                ]
+            ];
+
+        rr:predicateObjectMap [
+                rr:predicate domain:special_dish;
+                rr:objectMap [
+                  rml:reference "special_dish";
+                ]
+        ].
+    <#IngredientMapping> a rr:TriplesMap;
+        rml:logicalSource [
+        rml:source "restaurants.csv" ;
+        rml:referenceFormulation ql:CSV
+        ];
+
+        rr:subjectMap [
+        rr:template "http://restaurant.example.com/data/{special_dish_id}/{ingredient_id}";
+        rr:class :Ingredient
+        ];
+
+        rr:predicateObjectMap [
+                rr:predicate domain:special_ingredients;
+                rr:objectMap [
+                  rml:reference "special_ingredients";
+                ]
+        ].

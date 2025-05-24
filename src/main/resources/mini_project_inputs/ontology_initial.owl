@@ -12,45 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  hasAperitif
-<hasAperitif> rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf owl:topObjectProperty ;
-                   rdfs:domain <http://purl.obolibrary.org/obo/Restaurant> ;
-                   rdfs:range <Aperitif> .
-
-
-###  hasDessert
-<hasDessert> rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://purl.obolibrary.org/obo/Restaurant> ;
-                  rdfs:range <Desert/Dessert> .
-
-
-###  hasEmployee
-:hasEmployee rdf:type owl:ObjectProperty ;
-                   rdfs:domain <http://purl.obolibrary.org/obo/Restaurant> ;
-                   rdfs:range :Employee .
-
-
-###  hasIngredient
-:hasIngredient rdf:type owl:ObjectProperty ;
-                     rdfs:domain <Desert/Dessert> ,
-                                 <Aperitif> ,
-                                 <Main> ;
-                     rdfs:range :Ingredient .
-
-
-###  hasMain
-:hasMain rdf:type owl:ObjectProperty ;
-               rdfs:domain <http://purl.obolibrary.org/obo/Restaurant> ;
-               rdfs:range <Main> .
-
-
-###  hasRole
-:hasRole rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Employee ;
-                           rdfs:range :Role .
-
-
 ###  http://purl.obolibrary.org/obo/DOID_5b306b51_32cf_489e_a823_82e50840d1f1
 <http://purl.obolibrary.org/obo/DOID_5b306b51_32cf_489e_a823_82e50840d1f1> rdf:type owl:ObjectProperty ;
                                                                            rdfs:subPropertyOf owl:topObjectProperty ;
@@ -84,84 +45,84 @@
                                                                            rdfs:label "hasRating"@en .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6assists
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#assists
 :assists rdf:type owl:ObjectProperty ;
          owl:inverseOf :isAssistedBy ;
          rdfs:range :Chef .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6cooked
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#cooked
 :cooked rdf:type owl:ObjectProperty ;
         owl:inverseOf :isCookedBy ;
         rdfs:domain :Cook .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6cooks
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#cooks
 :cooks rdf:type owl:ObjectProperty ;
        owl:inverseOf :isMadeBy ;
        rdfs:domain :Cook ;
        rdfs:range :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6delivers
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#delivers
 :delivers rdf:type owl:ObjectProperty ;
           owl:inverseOf :isDeliveredBy ;
           rdfs:domain :Waiter .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6drinks
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#drinks
 :drinks rdf:type owl:ObjectProperty ;
         owl:inverseOf :isDrunkBy ;
         rdfs:domain :Customer ;
         rdfs:range :Drink_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6eats
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#eats
 :eats rdf:type owl:ObjectProperty ;
       owl:inverseOf :isEatenBy ;
       rdfs:domain :Customer ;
       rdfs:range :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isAssistedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isAssistedBy
 :isAssistedBy rdf:type owl:ObjectProperty ;
               rdfs:domain :Chef .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isCookedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isCookedBy
 :isCookedBy rdf:type owl:ObjectProperty ;
             rdfs:range :Cook .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isDeliveredBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isDeliveredBy
 :isDeliveredBy rdf:type owl:ObjectProperty ;
                rdfs:range :Waiter .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isDrunkBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isDrunkBy
 :isDrunkBy rdf:type owl:ObjectProperty ;
            rdfs:domain :Drink_Menu_Item ;
            rdfs:range :Customer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isEatenBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isEatenBy
 :isEatenBy rdf:type owl:ObjectProperty ;
            rdfs:domain :Food_Menu_Item ;
            rdfs:range :Customer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isMadeBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isMadeBy
 :isMadeBy rdf:type owl:ObjectProperty ;
           rdfs:domain :Food_Menu_Item ;
           rdfs:range :Cook .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isMadeUpOf
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isMadeUpOf
 :isMadeUpOf rdf:type owl:ObjectProperty ;
             owl:inverseOf :isNeededFor .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isManagedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isManagedBy
 :isManagedBy rdf:type owl:ObjectProperty ;
              owl:inverseOf :manages ;
              rdf:type owl:ReflexiveProperty ;
@@ -169,36 +130,36 @@
              rdfs:range :Manager .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isNeededFor
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isNeededFor
 :isNeededFor rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isOrderedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isOrderedBy
 :isOrderedBy rdf:type owl:ObjectProperty ;
              owl:inverseOf :orders ;
              rdfs:range :Customer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isPreparedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isPreparedBy
 :isPreparedBy rdf:type owl:ObjectProperty ;
               owl:inverseOf :prepares ;
               rdfs:domain :Drink_Menu_Item ;
               rdfs:range :Bartender .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isSuppliedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isSuppliedBy
 :isSuppliedBy rdf:type owl:ObjectProperty ;
               owl:inverseOf :supplies ;
               rdfs:range :Supplier .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isWaitedBy
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isWaitedBy
 :isWaitedBy rdf:type owl:ObjectProperty ;
             owl:inverseOf :waits ;
             rdfs:range :Waiter .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6manages
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#manages
 :manages rdf:type owl:ObjectProperty ,
                   owl:TransitiveProperty ,
                   owl:ReflexiveProperty ;
@@ -206,35 +167,35 @@
          rdfs:range :Employee .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6orders
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#orders
 :orders rdf:type owl:ObjectProperty ;
         rdfs:domain :Customer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6prepares
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#prepares
 :prepares rdf:type owl:ObjectProperty ;
           rdfs:domain :Bartender ;
           rdfs:range :Drink_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6seats
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#seats
 :seats rdf:type owl:ObjectProperty ;
        owl:inverseOf :sitsAt ;
        rdfs:range :Customer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6sitsAt
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#sitsAt
 :sitsAt rdf:type owl:ObjectProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Customer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6supplies
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#supplies
 :supplies rdf:type owl:ObjectProperty ;
           rdfs:domain :Supplier .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6waits
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#waits
 :waits rdf:type owl:ObjectProperty ;
        rdfs:domain :Waiter .
 
@@ -243,24 +204,24 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasCalories
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasCalories
 :hasCalories rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasCost
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasCost
 :hasCost rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:range xsd:double .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasExpiry
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasExpiry
 :hasExpiry rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasLoggedHours
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasLoggedHours
 :hasLoggedHours rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Employee ;
                 rdfs:range [ rdf:type rdfs:Datatype ;
@@ -273,26 +234,26 @@
                            ] .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasName
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasName
 :hasName rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasPrice
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasPrice
 :hasPrice rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:range xsd:double .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasSalary
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasSalary
 :hasSalary rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Employee ;
            rdfs:range xsd:unsignedLong .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasSeatingCapacity
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasSeatingCapacity
 :hasSeatingCapacity rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:range [ rdf:type rdfs:Datatype ;
@@ -305,7 +266,7 @@
                                ] .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6hasVolume
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#hasVolume
 :hasVolume rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Alcoholic_Beverage ;
@@ -319,7 +280,7 @@
                       ] .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6isAboveDrinkingAge
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#isAboveDrinkingAge
 :isAboveDrinkingAge rdf:type owl:DatatypeProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain :Customer ;
@@ -329,26 +290,6 @@
 #################################################################
 #    Classes
 #################################################################
-
-###  Desert/Dessert
-<Desert/Dessert> rdf:type owl:Class .
-
-
-###  Aperitif
-<Aperitif> rdf:type owl:Class .
-
-
-###  Main
-:Main rdf:type owl:Class .
-
-
-###  Role
-:Role rdf:type owl:Class .
-
-
-###  ingredient
-:Ingredient rdf:type owl:Class .
-
 
 ###  http://purl.obolibrary.org/obo/Michelin
 <http://purl.obolibrary.org/obo/Michelin> rdf:type owl:Class .
@@ -371,70 +312,70 @@
                                                     rdfs:subClassOf <http://purl.obolibrary.org/obo/Restaurant_Location> .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Alcoholic_Beverage
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Alcoholic_Beverage
 :Alcoholic_Beverage rdf:type owl:Class ;
                     rdfs:subClassOf :Drink_Menu_Item ;
                     owl:disjointWith :Non-Alcoholic_Beverage .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Aperitif
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Aperitif
 :Aperitif rdf:type owl:Class ;
           rdfs:subClassOf :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Bartender
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Bartender
 :Bartender rdf:type owl:Class ;
            rdfs:subClassOf :Employee .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Chef
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Chef
 :Chef rdf:type owl:Class ;
       rdfs:subClassOf :Employee .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Cook
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Cook
 :Cook rdf:type owl:Class ;
       rdfs:subClassOf :Employee .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Cooking_Assistant
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Cooking_Assistant
 :Cooking_Assistant rdf:type owl:Class ;
                    rdfs:subClassOf :Employee .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Customer
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Customer
 :Customer rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Dessert
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Dessert
 :Dessert rdf:type owl:Class ;
          rdfs:subClassOf :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Drink_Menu_Item
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Drink_Menu_Item
 :Drink_Menu_Item rdf:type owl:Class ;
                  owl:disjointWith :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Employee
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Employee
 :Employee rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Food_Menu_Item
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Food_Menu_Item
 :Food_Menu_Item rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Main
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Main
 :Main rdf:type owl:Class ;
       rdfs:subClassOf :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Manager
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Manager
 :Manager rdf:type owl:Class ;
          rdfs:subClassOf :Employee .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Non-Alcoholic_Beverage
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Non-Alcoholic_Beverage
 :Non-Alcoholic_Beverage rdf:type owl:Class ;
                         owl:equivalentClass [ owl:intersectionOf ( :Drink_Menu_Item
                                                                    [ rdf:type owl:Class ;
@@ -446,20 +387,20 @@
                         rdfs:subClassOf :Drink_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Owner
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Owner
 :Owner rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Side
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Side
 :Side rdf:type owl:Class ;
       rdfs:subClassOf :Food_Menu_Item .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Supplier
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Supplier
 :Supplier rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6Waiter
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#Waiter
 :Waiter rdf:type owl:Class ;
         rdfs:subClassOf :Employee .
 
@@ -485,14 +426,14 @@
                                                                            rdfs:label "Spain"@en .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6baked_potato
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#baked_potato
 :baked_potato rdf:type owl:NamedIndividual ,
                        :Side ;
               :hasCalories 123 ;
               :hasPrice 2.8 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6bobby
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#bobby
 :bobby rdf:type owl:NamedIndividual ,
                 :Cooking_Assistant ;
        :assists :dave ;
@@ -501,12 +442,12 @@
        :hasSalary 40 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6cake
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#cake
 :cake rdf:type owl:NamedIndividual ,
                :Dessert .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6carl
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#carl
 :carl rdf:type owl:NamedIndividual ,
                :Bartender ;
       :prepares :wine ;
@@ -514,25 +455,25 @@
       :hasSalary 3000 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6dave
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#dave
 :dave rdf:type owl:NamedIndividual ,
                :Chef ;
       :hasLoggedHours 10 ;
       :hasSalary 6000 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6escargot
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#escargot
 :escargot rdf:type owl:NamedIndividual ,
                    :Aperitif .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6farmer_steve
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#farmer_steve
 :farmer_steve rdf:type owl:NamedIndividual ,
                        :Supplier ;
               :supplies :raw_beef .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6george_michael
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#george_michael
 :george_michael rdf:type owl:NamedIndividual ,
                          :Manager ;
                 :manages :carl ;
@@ -540,14 +481,14 @@
                 :hasSalary 10000 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6ice_tea
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#ice_tea
 :ice_tea rdf:type owl:NamedIndividual ,
                   :Non-Alcoholic_Beverage ;
          :hasCalories 300 ;
          :hasPrice "5.0"^^xsd:double .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6jeff
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#jeff
 :jeff rdf:type owl:NamedIndividual ,
                :Customer ;
       :drinks :wine ;
@@ -556,39 +497,39 @@
       :sitsAt :table_1 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6orange_juice
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#orange_juice
 :orange_juice rdf:type owl:NamedIndividual ,
                        :Non-Alcoholic_Beverage ;
               :hasCalories 400 ;
               :hasPrice "2.0"^^xsd:double .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6owner_mcownerface
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#owner_mcownerface
 :owner_mcownerface rdf:type owl:NamedIndividual ,
                             :Owner .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6pepsi
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#pepsi
 :pepsi rdf:type owl:NamedIndividual ,
                 :Non-Alcoholic_Beverage ;
        :hasCalories 250 ;
        :hasPrice "13.0"^^xsd:double .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6raw_beef
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#raw_beef
 :raw_beef rdf:type owl:NamedIndividual ;
           :isCookedBy :jeff ;
           :hasCost 3.1 ;
           :hasExpiry ""^^xsd:dateTime .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6steak
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#steak
 :steak rdf:type owl:NamedIndividual ,
                 :Main ;
        :isMadeUpOf :raw_beef .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6sue
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#sue
 :sue rdf:type owl:NamedIndividual ;
      :assists :dave ;
      :cooks :escargot ;
@@ -596,32 +537,32 @@
                 3000 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6table_1
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#table_1
 :table_1 rdf:type owl:NamedIndividual ;
          :hasSeatingCapacity 4 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6table_2
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#table_2
 :table_2 rdf:type owl:NamedIndividual ;
          :hasSeatingCapacity 2 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6table_3
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#table_3
 :table_3 rdf:type owl:NamedIndividual ;
          :hasSeatingCapacity 2 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6table_4
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#table_4
 :table_4 rdf:type owl:NamedIndividual ;
          :hasSeatingCapacity 5 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6table_5
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#table_5
 :table_5 rdf:type owl:NamedIndividual ;
          :hasSeatingCapacity 10 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6wally
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#wally
 :wally rdf:type owl:NamedIndividual ,
                 :Waiter ;
        :delivers :cake ;
@@ -630,7 +571,7 @@
        :hasSalary 500 .
 
 
-###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6wine
+###  http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6#wine
 :wine rdf:type owl:NamedIndividual ,
                :Alcoholic_Beverage .
 

@@ -1,7 +1,7 @@
 import java.io.File;
 import java.io.IOException;
 
-
+//  git restore .
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -12,6 +12,7 @@ public class main_core_engine {
         File mappingFile = new File("./src/main/resources/mini_project_inputs/mapping_file.ttl");
         Writer output = new FileWriter("./src/main/resources/mini_project_inputs/output_file.ttl");
         String outputFilePath = "./src/main/resources/mini_project_inputs/output_file.ttl";
+//        String owlFilePath = "./src/main/resources/mini_project_inputs/ontology_initial.owl";
         String owlFilePath = "./src/main/resources/mini_project_inputs/ontology.owl";
         String[] sparqlQueries = new String[6];
         String[] query_descriptions = new String[6];
@@ -23,6 +24,8 @@ public class main_core_engine {
         query_descriptions[3] = "Find the country name with the biggest number of employees and country's capital city.";
         query_descriptions[4] = "Find the lead of the country which has restaurants with Micchelin.";
         query_descriptions[5] = "Find the supplier of the worst-rated restaurants.";
+//        query_descriptions[6] = "Properties question";
+//        query_descriptions[7] = "Properties question";
 
 
 
@@ -100,16 +103,18 @@ public class main_core_engine {
                 "  }   \n" +
                 "}\n" +
                 "LIMIT 6"; // I = 6 enter some cook name with cook and add some specialite for
+//        sparqlQueries[6] ="write something";
+//        sparqlQueries[7] = "write something";
 
 
 
         RML_pipeline.runRMLMapper(mappingFile,output);
-        GRAPH_DB_manager.store_RDF_to_Graph(outputFilePath,owlFilePath);
-        System.out.println("starting the querrry process");
-        for (int i = 0; i < sparqlQueries.length; i++) {
-            System.out.println("-------------------------- Initialize starting the querrry process------------------------------------------------------------");
-            GRAPH_DB_manager.execute_sparql_queries(sparqlQueries[i],query_descriptions[i]);
-        }
+//        GRAPH_DB_manager.store_RDF_to_Graph(outputFilePath,owlFilePath);
+//        System.out.println("starting the querrry process");
+//        for (int i = 0; i < sparqlQueries.length; i++) {
+//            System.out.println("-------------------------- Initialize starting the querrry process------------------------------------------------------------");
+//            GRAPH_DB_manager.execute_sparql_queries(sparqlQueries[i],query_descriptions[i]);
+//        }
 
 
     }
