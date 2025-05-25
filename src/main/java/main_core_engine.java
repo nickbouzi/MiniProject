@@ -14,8 +14,8 @@ public class main_core_engine {
         String outputFilePath = "./src/main/resources/mini_project_inputs/output_file.ttl";
 //        String owlFilePath = "./src/main/resources/mini_project_inputs/ontology_initial.owl";
         String owlFilePath = "./src/main/resources/mini_project_inputs/ontology.owl";
-        String[] sparqlQueries = new String[6];
-        String[] query_descriptions = new String[6];
+        String[] sparqlQueries = new String[8];
+        String[] query_descriptions = new String[8];
 
 
         query_descriptions[0] = "Find the gdp of top 3 countries with the biggest number of restaurants with 3 michelin stars.";
@@ -24,15 +24,15 @@ public class main_core_engine {
         query_descriptions[3] = "Find the country name with the biggest number of employees and country's capital city.";
         query_descriptions[4] = "Find the lead of the country which has restaurants with Micchelin.";
         query_descriptions[5] = "Find the supplier of the worst-rated restaurants.";
-//        query_descriptions[6] = "Properties question";
-//        query_descriptions[7] = "Properties question";
+        query_descriptions[6] = "Return the role of the employeee for restaurant  id  resto_003 which is manager";
+        query_descriptions[7] = "Return the special dishes for each cuisiny type and the corresponding ingredients";
 
 
 
         sparqlQueries[0] = "SELECT DISTINCT ?country_name (COUNT(?restaurant) AS ?three_star_restaurant_count) ?gdpRank\n" +
                 "WHERE {\n" +
-                "  ?restaurant a <http://purl.obolibrary.org/obo/Restaurant> ;\n" +
-                "              ex:country_name ?country_name ;\n" +
+                "?restaurant a <http://purl.obolibrary.org/obo/Restaurant> ;\n" +
+                "ex:country_name ?country_name ;\n" +
                 "              ex:michelin_star_number 3 .\n" +
                 "  BIND(IRI(CONCAT(\"http://dbpedia.org/resource/\", REPLACE(?country_name, \" \", \"_\"))) AS ?dbpediaCountry)\n" +
                 "  SERVICE <https://dbpedia.org/sparql> {\n" +
@@ -103,18 +103,43 @@ public class main_core_engine {
                 "  }   \n" +
                 "}\n" +
                 "LIMIT 6"; // I = 6 enter some cook name with cook and add some specialite for
-//        sparqlQueries[6] ="write something";
-//        sparqlQueries[7] = "write something";
+        sparqlQueries[6] ="SELECT ?employee_name ?role_name\n" +
+                "WHERE {\n" +
+                "  <http://restaurant.example.com/data/resto_003> :hasEmployee ?employee .\n" +
+                "\n" +
+                "  ?employee a :Employee ;\n" +
+                "            ex:employee_name ?employee_name ;\n" +
+                "            :hasRole ?role .\n" +
+                "\n" +
+                "  ?role a :Role ;\n" +
+                "        ex:role_name ?role_name .\n" +
+                "\n" +
+                "  FILTER (lcase(str(?role_name)) = \"manager\")\n" +
+                "}";
+        sparqlQueries[7] = "SELECT DISTINCT ?cuisine_type ?special_dish ?special_ingredients\n" +
+                "WHERE {\n" +
+                "  ?restaurant a obo:Restaurant ;\n" +
+                "              dc:type ?cuisine_type ;\n" +
+                "              :hasMain ?dish .\n" +
+                "\n" +
+                "  ?dish a :Main ;\n" +
+                "        ex:special_dish ?special_dish ;\n" +
+                "        :hasIngredient ?ingredient .\n" +
+                "\n" +
+                "  ?ingredient a :Ingredient ;\n" +
+                "              ex:special_ingredients ?special_ingredients .\n" +
+                "}\n" +
+                "ORDER BY ?cuisine_type ?special_dish";
 
 
 
         RML_pipeline.runRMLMapper(mappingFile,output);
-//        GRAPH_DB_manager.store_RDF_to_Graph(outputFilePath,owlFilePath);
-//        System.out.println("starting the querrry process");
-//        for (int i = 0; i < sparqlQueries.length; i++) {
-//            System.out.println("-------------------------- Initialize starting the querrry process------------------------------------------------------------");
-//            GRAPH_DB_manager.execute_sparql_queries(sparqlQueries[i],query_descriptions[i]);
-//        }
+        GRAPH_DB_manager.store_RDF_to_Graph(outputFilePath,owlFilePath);
+        System.out.println("starting the querrry process");
+        for (int i = 0; i < sparqlQueries.length; i++) {
+            System.out.println("-------------------------- Initialize starting the querrry process------------------------------------------------------------");
+            GRAPH_DB_manager.execute_sparql_queries(sparqlQueries[i],query_descriptions[i]);
+        }
 
 
     }

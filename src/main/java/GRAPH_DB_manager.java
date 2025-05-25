@@ -15,6 +15,8 @@ public class GRAPH_DB_manager {
             + "PREFIX dbo: <http://dbpedia.org/ontology/>\n"
             + "PREFIX dbr: <http://dbpedia.org/resource/>\n"
             + "PREFIX dbp: <http://dbpedia.org/property/>\n"
+            + "PREFIX : <http://www.semanticweb.org/wilhelm/ontologies/2017/2/untitled-ontology-6>"
+            + "PREFIX dc: <http://purl.org/dc/terms/>"
             + "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n";
     public static void store_RDF_to_Graph(String ontology_path, String outputFile_path) {
         String repositoryName = "MiniProject";
